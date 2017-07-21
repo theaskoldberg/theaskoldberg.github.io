@@ -1,0 +1,94 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>KÄNDA MUSIKER</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+             
+ <div class="container">
+    <h1 class="skugga"><a href="index.html">FUNK</a></h1>            
+</div>
+
+<div class="container">
+  <!-- Den lilla kolumnen till vänster där menyn finns -->
+    <div class="col-sm-2">
+        <ul class="nav nav-default">
+            <li><a href="menyval1.html">KÄNDA MUSIKER</a></li>
+            <li><a href="menyval2.html">FAKTA</a></li>
+            <li><a href="menyval3.html">INSTRUMENT</a></li>
+        </ul>
+    </div>
+
+    <!-- Den stora kolumnen till höger om menyn där innehållet finns -->
+    <h1>KÄNDA MUSIKER</h1>
+    <div class="col-sm-10">
+        <div class="row">
+            <div class="col-sm-8">
+                <img src="bilder/karimnouira jbj.jpg" class="infobild">
+                <p> Karim Nouira (keyboard)  är en av de bästa funkpianisterna i Sverige. Han tar lektioner av den välkända läraren Alvaro Is Rojas som har spelat inför samma lärare på Berkeley som Herbie Hancock.</p>
+
+                <p>James Bradley Jr (trummor) turnerade med RnB stjärnan Anita Baker, Han har spelat med  bland annat The Beastie Boys, Slash, Crazy town och Lennie Kravitz. Karim och JBJ har spelat med varandra sedan 2002.</p>
+                <P>JBJ och Karim Nouira Live:</P>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A-Snyj0x-ew" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-4">
+            <h1>Andra bra funkmusiker genom tiderna:</h1>
+            <ul>
+    <li>
+        <a href="https://sv.wikipedia.org/wiki/James_Brown">James Brown</a>
+    </li>
+    <li>
+        <a href="https://sv.wikipedia.org/wiki/George_Clinton_(musiker)">George Clinton</a>
+    </li>
+    <li>
+        <a href="https://sv.wikipedia.org/wiki/Bootsy_Collins">Bootsy Collins</a>
+    </li>
+    <li>
+        <a href="https://en.wikipedia.org/wiki/Alfred_%22Pee_Wee%22_Ellis">Alfred "Pee Wee" Ellis</a>
+    </li>
+    <li>
+        <a href="https://sv.wikipedia.org/wiki/Red_Hot_Chili_Peppers">Red Hot Chili Peppers</a>
+    </li>
+    <li>
+        <a href="https://sv.wikipedia.org/wiki/Herbie_Hancock">Herbie Hancock</a>
+    </li>
+    <li>
+        <a href="https://en.wikipedia.org/wiki/Prince_(musician)">Prince</a>
+    </li>
+    <li>
+        <a href="https://sv.wikipedia.org/wiki/Funkadelic">Funkadelic</a>
+
+    </li>
+</ul>
+            </div>                    
+        </div>
+    </div> 
+</div>
+
+
+</body>
+</html>
